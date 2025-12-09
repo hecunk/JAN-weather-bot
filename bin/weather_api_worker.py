@@ -1,6 +1,6 @@
 import aiohttp
 import asyncio
-from . import config
+from __init__ import config
 
 
 async def get_data(latitude, longitude):

@@ -3,10 +3,10 @@ from aiogram.fsm.context import FSMContext
 from aiogram.filters import Command, StateFilter
 from aiogram import types
 from magic_filter import F
-from .utils import *
-from . import dp, users
-from .weather_api_worker import get_data
-from .formater import format
+from utils import *
+from weather_api_worker import get_data
+from formater import format
+from __init__ import dp, users
 
 
 @dp.message(Command('start'))

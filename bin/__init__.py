@@ -12,4 +12,4 @@ logging.basicConfig(level=logging.INFO)
 bot = aiogram.Bot(token=config["bot_token"])
 dp = aiogram.Dispatcher()
 
-from .handlers import *
+from handlers import *

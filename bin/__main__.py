@@ -1,4 +1,4 @@
-from . import dp, bot
+from __init__ import dp, bot
 import asyncio
 
 async def main():
